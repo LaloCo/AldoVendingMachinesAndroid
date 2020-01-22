@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.tsool.appvending.AddMachine">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etxNameMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Nombre"
+            android:inputType="textPersonName" android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/borde" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tipo de máquina"
+        android:textSize="12dp"
+        android:textColor="@color/forest"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/Kind"
+        android:id="@+id/spKindMachine" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText android:id="@+id/etxFirstRead"
+            android:layout_width="match_parent" android:background="@drawable/borde"
+            android:layout_height="wrap_content" android:hint="Primera Lectura"
+            android:inputType="numberDecimal" android:maxLines="1"
+            android:singleLine="true"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tipo de participación"
+        android:textSize="12dp"
+        android:textColor="@color/forest"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/KindParticipation"
+        android:id="@+id/spTipoParticipacion" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tilValorParticipacion"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText android:id="@+id/etxValorParticipacion"
+            android:layout_width="match_parent" android:background="@drawable/borde"
+            android:layout_height="wrap_content" android:hint="Valor de la participacion"
+            android:inputType="numberDecimal" android:maxLines="1"
+            android:singleLine="true"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tilPrecioCafe"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText android:id="@+id/etxPrecioCafe"
+            android:layout_width="match_parent" android:background="@drawable/borde"
+            android:layout_height="wrap_content" android:hint="Precio taza"
+            android:inputType="numberDecimal" android:maxLines="1"
+            android:singleLine="true"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

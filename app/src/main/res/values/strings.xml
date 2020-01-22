@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Máquinas</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="posicion1">Posición 1</string>
+    <string name="posicion2">Posición 2</string>
+    <string name="posicion3">Posición 3</string>
+    <string name="posicion4">Posición 4</string>
+    <string name="posicion5">Posición 5</string>
+    <string name="posicion6">Posición 6</string>
+    <string name="posicion7">Posición 7</string>
+    <string name="posicion8">Posición 8</string>
+    <string name="posicion9">Posición 9</string>
+    <string name="posicion10">Posición 10</string>
+    <string name="posicion11">Posición 11</string>
+    <string name="posicion12">Posición 12</string>
+    <string name="posicion13">Posición 13</string>
+    <string name="posicion14">Posición 14</string>
+    <string name="posicion15">Posición 15</string>
+    <string name="posicion16">Posición 16</string>
+    <string name="posicion17">Posición 17</string>
+    <string name="posicion18">Posición 18</string>
+    <string name="posicion19">Posición 19</string>
+    <string name="posicion20">Posición 20</string>
+    <string name="posicion21">Posición 21</string>
+    <string name="posicion22">Posición 22</string>
+    <string name="posicion23">Posición 23</string>
+    <string name="posicion24">Posición 24</string>
+    <string name="posicion25">Posición 25</string>
+    <string name="posicion26">Posición 26</string>
+    <string name="posicion27">Posición 27</string>
+    <string name="posicion28">Posición 28</string>
+    <string name="posicion29">Posición 29</string>
+    <string name="posicion30">Posición 30</string>
+    <string name="posicion31">Posición 31</string>
+    <string name="posicion32">Posición 32</string>
+
+
+
+    <string-array name="Kind">
+        <item>Snacks 1</item>
+        <item>Snacks 2</item>
+        <item>Café</item>
+    </string-array>
+
+    <string-array name="ProductKind">
+        <item>Snacks</item>
+        <item>Café</item>
+    </string-array>
+
+    <string-array name="KindParticipation">
+        <item>Nada</item>
+        <item>Renta Mensual</item>
+        <item>Porcentual</item>
+        <item>Por taza(cuando aplica)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.tsool.appvending.Snacks1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion1"
+                    android:id="@+id/txvSnacks1Product1"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion2"
+                    android:id="@+id/txvSnacks1Product2"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion3"
+                    android:id="@+id/txvSnacks1Product3"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion4"
+                    android:id="@+id/txvSnacks1Product4"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion5"
+                    android:id="@+id/txvSnacks1Product5"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion6"
+                    android:id="@+id/txvSnacks1Product6"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion7"
+                    android:id="@+id/txvSnacks1Product7"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion8"
+                    android:id="@+id/txvSnacks1Product8"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion9"
+                    android:id="@+id/txvSnacks1Product9"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion10"
+                    android:id="@+id/txvSnacks1Product10"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion11"
+                    android:id="@+id/txvSnacks1Product11"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion12"
+                    android:id="@+id/txvSnacks1Product12"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion13"
+                    android:id="@+id/txvSnacks1Product13"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion14"
+                    android:id="@+id/txvSnacks1Product14"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion15"
+                    android:id="@+id/txvSnacks1Product15"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion16"
+                    android:id="@+id/txvSnacks1Product16"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion17"
+                    android:id="@+id/txvSnacks1Product17"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion18"
+                    android:id="@+id/txvSnacks1Product18"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion19"
+                    android:id="@+id/txvSnacks1Product19"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion20"
+                    android:id="@+id/txvSnacks1Product20"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion21"
+                    android:id="@+id/txvSnacks1Product21"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion22"
+                    android:id="@+id/txvSnacks1Product22"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion23"
+                    android:id="@+id/txvSnacks1Product23"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion24"
+                    android:id="@+id/txvSnacks1Product24"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion25"
+                    android:id="@+id/txvSnacks1Product25"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion26"
+                    android:id="@+id/txvSnacks1Product26"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion27"
+                    android:id="@+id/txvSnacks1Product27"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion28"
+                    android:id="@+id/txvSnacks1Product28"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion29"
+                    android:id="@+id/txvSnacks1Product29"
+                    android:textColor="@color/snow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:textSize="8dp"
+                    android:gravity="center"
+                    android:background="@drawable/selector_listview_products"
+                    android:text="@string/posicion30"
+                    android:id="@+id/txvSnacks1Product30"
+                    android:textColor="@color/snow" />
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/etxLecturaSnacks1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="Lectura"
+                    android:inputType="numberDecimal" android:maxLines="1"
+                    android:singleLine="true"
+                    android:background="@drawable/borde" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/etxAjustesSnacks1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="Ajustes (reposiciones)"
+                    android:inputType="numberDecimal" android:maxLines="1"
+                    android:singleLine="true"
+                    android:background="@drawable/borde" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

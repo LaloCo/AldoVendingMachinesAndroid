@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.tsool.appvending.AddProduct">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Snack"
+        android:textSize="12dp"
+        android:textColor="@color/forest"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/spProduct" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <EditText android:id="@+id/etxCantidadDisponibleProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Cantidad Disponible"
+        android:inputType="number" android:maxLines="1"
+        android:text="10"
+        android:singleLine="true"
+        android:background="@drawable/borde" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etxCantidadProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Cantidad Agregada"
+            android:inputType="number" android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/borde" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etxPrecioProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Precio"
+            android:inputType="numberDecimal" android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/borde" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</LinearLayout>

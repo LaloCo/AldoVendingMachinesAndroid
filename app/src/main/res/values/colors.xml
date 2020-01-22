@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="crimson">#8D230F</color>
+    <color name="forest">#1E434C</color>
+    <color name="rust">#9B4F0F</color>
+    <color name="gold">#C99E10</color>
+    <color name="snow">#E5E5E5</color>
+</resources>
